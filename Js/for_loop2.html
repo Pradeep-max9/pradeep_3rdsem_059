@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numbers = [10,20,30,40];
+        let student = {name:"john",age:20,grade:"A"};
+        //foe loop
+        console.log("for loop:");
+        for(let i=0; i<numbers.length;i++){
+            console.log(numbers[i]);
+        }
+        //for of loop
+        console.log("for  of loop:");
+        for(let num of numbers){
+            console.log(num);}
+        //for in loop    
+        console.log("for  inloop:");
+        for(let key in student){
+            console.log(key + ":",student[key]);
+        }
+        //while loop
+        console.log("while loop:");
+        let i = 0;
+        while(i<numbers.length){
+            console.log(numbers[i]);
+            i++;
+        }
+        //do while loop
+       console.log("do while loop:");
+       let j = 0;
+       do{
+        console.log(numbers[j]);
+        j++;
+       }while(j< numbers.length);
+
+       //for each loop
+       let team2=["pbks","kkr","rr"];
+        team2.forEach((team , index) => {
+            console.log(index+":",team);
+        });
+
+        
+       
+    </script>
+</body>
+</html>
