@@ -31,6 +31,7 @@ function Home() {
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>
+    <p>"Weather" refers to the state of the atmosphere at a specific time and place, including conditions like temperature, wind, rain, and sunshine. It can also be a verb meaning to endure or to be affected by the elements, as in "weathering the storm". Common English terms for weather include sunny, rainy, cloudy, stormy, windy, and hot or cold. </p>
   </>
 }
 
